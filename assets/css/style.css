@@ -25,6 +25,68 @@
     right: 0;
     left: 0;
 }
+.header-left{
+    height: 100%;
+}
+.menu {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin-right: 40px;
+    background-color:linear-gradient(to top, rgba(48,81,101,0.800) 0%,
+   rgba(48,81,101,0.298) 33%, rgb(9 21 19) 100%);
+    box-shadow:  1px 1px 8px rgb(0 0 0 / 80%);
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.link-header {
+    margin-bottom: 30px;
+    
+}
+.line-between{
+    height: 1px;
+    width: 250px;
+    border: solid 1px rgb(55, 53, 53);
+    margin-top: 36px;
+}
+.menu-list-2 {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.menu-list-item {
+    line-height: 56px;
+}
+.menu-list-item:hover{
+    opacity:0.7;
+    background-color: #ccc;
+}
+.icon-section {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-right: 70px;
+    padding-right: 65px;
+}
+
+.menu-list-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+    display: inline-block;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 25px;
+    margin-left: 16px;
+}
+
+
+.custom-icon {
+    font-size: 35px;
+}
 
 .player-container {
     height: 715px;
