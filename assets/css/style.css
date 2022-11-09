@@ -182,7 +182,7 @@ position: absolute;
 
 .header__nav {
     position: absolute;
-    left: 57%;
+    left: 59%;
 }
 
 
@@ -391,7 +391,7 @@ position: absolute;
 }
 
 .player-container {
-    height: 550px;
+    height: 548px;
     width: 900px;
     display: flex;
     margin: 20px auto;
@@ -404,7 +404,7 @@ position: absolute;
 }
 
 .player-left-top {
-    height: 315px;
+    height: 60%;
     background-color: #fff;
 }
 
@@ -433,7 +433,7 @@ position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 37%;
+    height: 40%;
     background-color: #f1f1f1;
     opacity: 0.9;
 }
