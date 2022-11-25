@@ -190,14 +190,6 @@
   display: none;
 }
 
-.header__nav-btn label {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  cursor: pointer;
-  border-radius: 50%;
-  align-items: center;
-}
 
 .header__nav-icon {
   width: 30px;
