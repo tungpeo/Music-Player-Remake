@@ -8,8 +8,14 @@
     margin:0;padding:0;
 }
 
+:root{
+    --background:#171b3c;
+    --primary-color:#050716;
+    --secondary-color:
+}
+
 body{
-    background-color:#04050c;
+    background-color:var(--background);
 }
 
 .pl-35{
@@ -19,6 +25,7 @@ body{
 a{
     text-decoration:none;
 }
+
 
 /* style header */
 
@@ -32,7 +39,7 @@ a{
 .grid-1{
     box-sizing:border-box;
     position: fixed;
-    background-color: #050716;
+    background-color: var(--primary-color);
     height:100vh;
     width:240px;
 }
@@ -86,7 +93,7 @@ a{
     width:calc(100% - 40px);
     height:70px;
     align-items: center;
-    background-color:#04050c;
+    background-color:var(--background);
 }
 
 .search-bar{
@@ -115,8 +122,19 @@ span.search-icon{
 }
 
 
+#header__nav-input{
+    display:none;
 
-.user-function a.func{
+    cursor:pointer;
+}
+
+
+.user-function{
+    display:flex;
+}
+
+
+.user-function .func, .header__nav-btn{
     color:white;
     display: inline-block;
     margin:0 5px;
@@ -138,7 +156,7 @@ span.search-icon{
     height: 40px;
 }
 
-a.func i{
+.func i{
     line-height: 40px;
     display: flex;
     flex-direction: row;
