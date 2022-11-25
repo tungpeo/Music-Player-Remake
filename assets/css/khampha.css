@@ -26,6 +26,17 @@ a{
     text-decoration:none;
 }
 
+.w-33{
+    width:33%;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.flex{
+    display:flex;
+}
 
 /* style header */
 
@@ -161,4 +172,15 @@ span.search-icon{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    cursor:pointer;
+}
+
+/* section 1: slide */
+
+
+
+.slides .slide-component{
+    width:calc(100% / 3 - 20px);
+    border-radius:12px;
+    margin:5px;
 }
