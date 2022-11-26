@@ -299,4 +299,3 @@ const app = {
   },
 };
 
-app.start();
