@@ -196,11 +196,6 @@ span.search-icon {
 /* section 1: slide */
 
 
-.slides .slide-component {
-    width: calc(100% / 3 - 20px);
-    border-radius: 12px;
-    margin: 5px;
-}
 
 
 /* section 2: playlist 1 */
@@ -235,12 +230,11 @@ span.search-icon {
 
 .playlist--carousel {
     display: flex;
-    gap: 10;
 }
 
 .pl-element {
-    width: 40%;
-    margin: 0 30px 30px 0;
+    width: 30%;
+    margin: 0 30px 12px 0;
 }
 
 .overlay{
@@ -257,7 +251,7 @@ span.search-icon {
 }
 
 
-.element--head, {
+.element--head {
     position: relative;
     overflow:hidden;
     border-radius: 5px;
