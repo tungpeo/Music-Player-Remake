@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/font/font/css/all.css">
+    <link rel="stylesheet" href="./assets/css/khampha.css">
+    
+    <script src="./assets/js/khampha.js"></script>
+    <title>App nghe nhạc</title>
+</head>
+
+<body>
+    <!-- Grid 1: chứa menu sidebar bên trái -->
+    <div class="grid-1">
+        <div class="sidebar">
+            <div class="logo-brand pl-35">
+                <img src="assets/img/assets-khampha/logo.png" width="100" height="100%" alt="logo brand">
+            </div>
+            <!-- menu 1 -->
+            <div class="nav-menu-1">
+                <a class="ca-nhan" href="#" onclick="">
+                    <div class="nav-icon"><i class="fa-solid fa-person"></i></div>
+                    <span>Cá nhân</span>
+                </a>
+                <a class="kham-pha" href="#">
+                    <div class="nav-icon"><i class="fa-solid fa-music"></i></div>
+                    <span>Khám phá</span>
+                </a>
+                <a class="chart" href="#">
+                    <div class="nav-icon"><i class="fa-solid fa-chart-simple"></i></div>
+                    <span>#Chart</span>
+                </a>
+                <a class="theo-doi" href="#">
+                    <div class="nav-icon"><i class="fa-sharp fa-solid fa-lines-leaning"></i></div>
+                    <span>Theo dõi</span>
+                </a>
+
+            </div>
+            <div class="divider"></div>
+            <!-- menu 2 -->
+            <div class="nav-menu-2">
+                <a class="nhac-moi" href="#">
+                    <div class="nav-icon"><i class="fa-solid fa-record-vinyl"></i></div>
+                    <span>Nhạc mới</span>
+                </a>
+                <a class="the-loai" href="#">
+                    <div class="nav-icon"><i class="fa-solid fa-radio"></i></div>
+                    <span>Thể loại</span>
+                </a>
+                <a class="top-100" href="#">
+                    <div class="nav-icon"><i class="fa-solid fa-award"></i></div>
+                    <span>Top 100</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="grid-2">
+
+        <!-- header -->
+        <div class="header-top">
+            <div class="search-bar">
+                <input type="text" alt="Tìm kiếm" placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát...">
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </input>
+            </div>
+            <div class="user-function">
+                <a href="#" class="button1 func"><i class="fa-solid fa-seedling"></i></a>
+
+                <div class="header__nav-btn func">
+                    <input type="file" name="upload song" id="header__nav-input">
+                    <label for="header__nav-input">
+                        <i class="fa-solid fa-upload"></i>
+                    </label>
+                </div>
+                </li>
+
+                <a href="#" class="button3 func"><i class="fa-solid fa-gear"></i></a>
+                <a href="#" class="button5 user">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Nhóm PT Web</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- section 1: slide -->
+        <div class="playlist-slide">
+            <div class="slides flex" id="scroll-slide">
+                <img class="slide-component" src="./assets/img/assets-khampha/slide1.jpg" alt="">
+                <img class="slide-component" src="./assets/img/assets-khampha/slide2.jpg" alt="">
+                <img class="slide-component" src="./assets/img/assets-khampha/slide3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
