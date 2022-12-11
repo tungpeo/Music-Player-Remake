@@ -317,3 +317,11 @@ span.search-icon {
     height: 300px;
     display: inline-block;
 }
+
+.main-img-board {
+    width: 1160px;
+    height: 325px;
+    background-color: red;
+    margin-bottom: 75px;
+    border-radius: 10px;
+}
