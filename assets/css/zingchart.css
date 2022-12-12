@@ -1723,7 +1723,8 @@ label .container__header-icon {
 }
 
 .btn-toggle-play1 i {
-    padding: 5px;
+   font-size: 15px;
+    padding: 9px;
     border-radius: 50%;
     border: 1px solid var(--text-color);
 }

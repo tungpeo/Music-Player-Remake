@@ -53,6 +53,7 @@ a {
 .sidebar .logo-brand {
   padding-top: 15px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .grid-1 {
