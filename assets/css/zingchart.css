@@ -1710,11 +1710,11 @@ label .container__header-icon {
     justify-content: space-between;
 }
 
-.player__control-btn .btn-toggle-play {
+.player__control-btn .btn-toggle-play1 {
     padding: 3px 7px;
 }
 
-.btn-toggle-play {
+.btn-toggle-play1 {
     flex: 1;
     height: 100%;
     display: flex;
@@ -1722,13 +1722,13 @@ label .container__header-icon {
     justify-content: center;
 }
 
-.btn-toggle-play i {
+.btn-toggle-play1 i {
     padding: 5px;
     border-radius: 50%;
     border: 1px solid var(--text-color);
 }
 
-.btn-toggle-play .icon-play:before {
+.btn-toggle-play1 .icon-play:before {
     transform: translateX(1px);
 }
 
@@ -1823,7 +1823,7 @@ label .container__header-icon {
 }
 
   
-.progress {
+/* .progress {
     flex: 1;
     opacity: 1;
     z-index: 5;
@@ -1837,7 +1837,7 @@ label .container__header-icon {
     transition: opacity 0.2s;
     background-color: transparent;
     -webkit-tap-highlight-color: transparent;
-}
+} */
 
 
   
@@ -2586,11 +2586,11 @@ label .container__header-icon {
     border-radius: 6px;
 }
 
-.row__item.item--fav-artist .control-btn.btn-toggle-play {
+.row__item.item--fav-artist .control-btn.btn-toggle-play1 {
     font-size: 4.5rem;
 }
 
-.btn--fav-artist .btn-toggle-play i {
+.btn--fav-artist .btn-toggle-play1 i {
     color: var(--white-color);
     border-color: var(--white-color);
 }
