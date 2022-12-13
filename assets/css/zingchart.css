@@ -3002,9 +3002,9 @@ label .container__header-icon {
     color: #fff;
 }
 
-.fa-heart::before {
+.fa-heart::before { /* icon này dùng chung đổi màu thì các trang khác bị đổi theo */
     content: "\f004";
-    color: #da3b3b;
+    /* color: #da3b3b; */
 }
 
 .fa-ellipsis::before {
