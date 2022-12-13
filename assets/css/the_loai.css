@@ -312,10 +312,10 @@ span.search-icon {
 }
 
 .bg--rec-1 {
-    background-image: url('./assetsassets/img/assets-the_loai/nhacviet.bmp');
+    background-image: url('././assetsassets/img/assets-the_loai/nhacviet.bmp');
 }
 .bg--rec-2 {
-    background-image: url('./assetsassets/img/assets-the_loai/nhachan.bmp');
+    background-image: url('../assetsassets/img/assets-the_loai/nhachan.bmp');
 }
 .bg--rec-3 {
     background-image: url('./assets/img/assets-the_loai/nhachoa.bmp');
