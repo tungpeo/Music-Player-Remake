@@ -15,6 +15,22 @@
     --secondary-color: #191f51;
     --icon-size: 58px;
     --white: white;
+    --scale-hover: 1.0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.z98 {
+    z-index: 98;
+}
+
+.cover-play-btn {
+    font-size: 200%;
+    padding-left: 90px;
+    padding-top: 85px;
+    opacity: 0;
 }
 
 body {
@@ -23,6 +39,28 @@ body {
 
 .pl-35 {
     padding-left: 35px;
+}
+
+.element--head-cover:hover .cover-play-btn{
+    opacity: 1;
+    transition: 1s;
+}
+
+.element--rec-cover:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.element--rec-cover:not(hover) {
+    opacity: 0;
+    transition: 1s;
+}
+
+.icon-play-200 {
+    font-size: 200%;
+    padding-top: 60px;
+        display: flex;
+    justify-content: space-around;
 }
 
 a {
@@ -210,28 +248,28 @@ span.search-icon {
 .playlist--hot-hit {
     display: flex;
     flex-direction: column;
-    max-width:100%;
-    padding: 25px 0;
+    max-width: 100%;
+    padding: 10px 0;
 }
 
-.playlist--title{
-    font-size:100%;
+.playlist--title {
+    font-size: 100%;
     padding: 20px 0;
 }
 
-.element--title{
-    font-size:100%;
+.element--title {
+    font-size: 100%;
     padding: 8px 0;
 }
 
-.element--title h3{
-    font-size:16px;
-    margin:3px 0;
+.element--title h3 {
+    font-size: 16px;
+    margin: 3px 0;
 }
 
-.element--title p{
-    font-size:12px;
-    color:#a19ac3
+.element--title p {
+    font-size: 12px;
+    color: #a19ac3
 }
 
 .playlist--carousel {
@@ -244,17 +282,17 @@ span.search-icon {
     margin: 0 30px 30px 0;
 }
 
-.overlay{
-    display:none;
+.overlay {
+    display: none;
     position: absolute;
-    width:100%;
-    border-radius:4px;
+    width: 100%;
+    border-radius: 4px;
     box-sizing: border-box;
     min-height: 100%;
     background-color: rgba(0, 0, 0, 0.500);
-    top:0;
-    left:0;
-    bottom:0;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -262,36 +300,73 @@ span.search-icon {
     width: 200px;
     height: 200px;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     border-radius: 5px;
 }
 
-
-.element--head img:hover{
-    transform:scale(1.2);
+.element--rec {
+    width: 260px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
-.element--head img:hover .overlay{
-    display:block !important;
+.bg--rec-1 {
+    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhacviet.bmp');
+}
+.bg--rec-2 {
+    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhachan.bmp');
+}
+.bg--rec-3 {
+    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhachoa.bmp');
+}
+.bg--rec-4 {
+    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhacaumi.bmp');
+}
+
+.rec-nation {
+    width: 200px;
+    font-size: 200%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.element--head img {
+    scale: var(--scale-hover);
+}
+
+.element--head-cover:hover {
+    --scale-hover: 1.05;
+}
+
+.element--head-cover:hover .overlay {
+    display: block !important;
+}
+
+
+.element--rec-cover {
+    width: 260px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .element--head img {
     width: 100%;
-    background-size:auto;
+    background-size: auto;
     background-repeat: no-repeat;
-    overflow:hidden;
+    overflow: hidden;
     transition: .3s ease-out;
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
 
 
 .pl-element .func--play {
-    display:none;
+    display: none;
     position: absolute;
-    font-size:var(--icon-size);
-    top:calc(50% - (var(--icon-size) / 2));
-    left:calc(50% - (var(--icon-size) / 2));
-    z-index:1000;
+    font-size: var(--icon-size);
+    top: calc(50% - (var(--icon-size) / 2));
+    left: calc(50% - (var(--icon-size) / 2));
+    z-index: 1000;
 }
 
 .music-type-rec {
@@ -301,7 +376,7 @@ span.search-icon {
 
 .type-title {
     color: white;
-    font-size: 200%;
+    font-size: 20px;
 }
 
 .rec-mus-div {
@@ -321,7 +396,11 @@ span.search-icon {
 .main-img-board {
     width: 1160px;
     height: 325px;
-    background-color: red;
     margin-bottom: 75px;
     border-radius: 10px;
+}
+
+.main-img-board:hover img{
+    scale: 1.05;
+    transition: 0.5s;
 }
