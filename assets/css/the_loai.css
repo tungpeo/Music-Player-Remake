@@ -312,16 +312,16 @@ span.search-icon {
 }
 
 .bg--rec-1 {
-    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhacviet.bmp');
+    background-image: url('./assetsassets/img/assets-the_loai/nhacviet.bmp');
 }
 .bg--rec-2 {
-    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhachan.bmp');
+    background-image: url('./assetsassets/img/assets-the_loai/nhachan.bmp');
 }
 .bg--rec-3 {
-    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhachoa.bmp');
+    background-image: url('./assets/img/assets-the_loai/nhachoa.bmp');
 }
 .bg--rec-4 {
-    background-image: url('D:/Git_Desktop/Music-Player-Remake/assets/img/assets-the_loai/nhacaumi.bmp');
+    background-image: url('./assets/img/assets-the_loai/nhacaumi.bmp');
 }
 
 .rec-nation {
