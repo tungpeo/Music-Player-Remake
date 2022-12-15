@@ -27,8 +27,8 @@
   --link-text-hover: #c273ed;
   --chart-bg-img-alpha: rgba(32, 19, 53, 0.9);
 }
-.display-none{
-   display: none;
+.display-none {
+  display: none;
 }
 
 .player-container {
@@ -37,6 +37,8 @@
   justify-content: center;
   display: flex;
   margin: 20px auto;
+  margin-bottom: 100px;
+
   /* box-shadow: 1px 1px 8px rgb(0 0 0 / 80%);*/
 }
 
@@ -187,6 +189,7 @@
 }
 
 .player-right {
+  border-radius: 10px;
   width: 70%;
   background-color: #fff;
   overflow-y: scroll;
